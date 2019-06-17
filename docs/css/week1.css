@@ -1,6 +1,13 @@
+.header {
+    display:flex;
+    flex:1;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .headerleft {
-    margin-left: 100px;
-    flex: 2;
+    margin-left: 50px;
+    flex: 3;
     font-size: 22px;
 }
 .headerright {
@@ -8,7 +15,6 @@
     flex:1;
     margin-right: 100px;
     justify-content: space-between;
-    align-items: center;
     font-weight: bold;
 }
 .top1 {
@@ -29,9 +35,9 @@
 }
 .title2 {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .buttons {
     display: flex;
@@ -39,7 +45,6 @@
 }
 .downloadButton {
     border: 1px solid;
-    outline: none;
     background-color: transparent;
     color: white;
     width: 150px;
@@ -48,7 +53,6 @@
 }
 .readButton {
     border: 1px solid transparent;
-    outline: none;
     background-color: #7462F5;
     color: white;
     width: 150px;
@@ -69,7 +73,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    height: 280px;
+    height: 250px;
     margin-left:100px;
     margin-right: 100px;
 }
@@ -82,10 +86,9 @@
     word-wrap: break-word;
     word-break: break-all;
     overflow: hidden;
-    width: 200px;
+    width: 280px;
     font-size: 10px;
     color: grey;
-    margin-bottom: 30px;
 }
 .third {
     display:flex;
@@ -96,12 +99,10 @@
 }
 .footer {
     display: flex;
-    justify-content:
-    space-between;
+    justify-content: space-between;
     background: black
 }
 .footTitle {
-    flex:3;
     color: white;
     margin-left: 100px;
 }
